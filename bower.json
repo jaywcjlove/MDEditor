@@ -1,0 +1,11 @@
+{
+  "name": "MDEditor",
+  "version": "0.0.0",
+  "authors": [
+    "jaywcjlove <398188662@qq.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "AutoPrefixCss": "~1.0.1"
+  }
+}
