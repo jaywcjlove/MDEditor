@@ -1,6 +1,6 @@
 # 简易Markdownd编辑器
 
-[![](https://img.shields.io/github/issues/jaywcjlove/MDEditor.js.svg)](https://github.com/jaywcjlove/MDEditor.js/issues) [![](https://img.shields.io/github/forks/jaywcjlove/MDEditor.js.svg)](https://github.com/jaywcjlove/MDEditor.js/network) [![](https://img.shields.io/github/stars/jaywcjlove/MDEditor.js.svg)](https://github.com/jaywcjlove/MDEditor.js/stargazers) [![](https://img.shields.io/github/release/jaywcjlove/MDEditor.js.svg)](https://github.com/jaywcjlove/MDEditor.js/releases)
+[![](https://img.shields.io/github/issues/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/issues) [![](https://img.shields.io/github/forks/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/network) [![](https://img.shields.io/github/stars/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/stargazers) [![](https://img.shields.io/github/release/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/releases)
 
 ##使用
 
