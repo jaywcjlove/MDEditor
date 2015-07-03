@@ -1,0 +1,3 @@
+[submodule "themes/default/AutoPrefixCSS"]
+	path = themes/default/AutoPrefixCSS
+	url = https://github.com/jaywcjlove/AutoPrefixCSS.git
