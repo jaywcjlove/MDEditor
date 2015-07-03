@@ -6,6 +6,7 @@ min-height=200px
 .mdeditor 
     position:relative
     font-size:12px
+    font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
     .mde_textarea,.mde_preview
         min-height:min-height
         border-radius: 5px
@@ -93,6 +94,7 @@ min-height=200px
         padding-bottom: 0.3em
         font-size: 1.75em
         line-height: 1.225
+        border-bottom:1px dashed #eee
     blockquote
         padding: 0 15px;
         color: #777;
@@ -114,3 +116,22 @@ min-height=200px
         line-height: 1.45;
         background-color: #f7f7f7;
         border-radius: 3px;
+        code
+            background-color:transparent
+            color: inherit;
+
+        code:before,code:after,tt:before,tt:after
+            letter-spacing: 0;
+            content: "";
+    code,tt
+        padding: 0
+        padding-top: 0.2em
+        padding-bottom: 0.2em
+        margin: 0
+        font-size: 85%
+        background-color: rgba(0,0,0,0.04)
+        border-radius: 3px
+        color: #c7254e;
+    code:before,code:after,tt:before,tt:after
+        letter-spacing: -0.2em;
+        content: "\00a0";

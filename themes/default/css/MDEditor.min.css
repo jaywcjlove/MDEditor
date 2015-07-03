@@ -7,6 +7,7 @@
 .mdeditor {
   position: relative;
   font-size: 12px;
+  font: 13px/1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .mdeditor .mde_textarea,
 .mdeditor .mde_preview {
@@ -114,6 +115,7 @@
   padding-bottom: 0.3em;
   font-size: 1.75em;
   line-height: 1.225;
+  border-bottom: 1px dashed #eee;
 }
 .markdown_body blockquote {
   padding: 0 15px;
@@ -148,4 +150,33 @@
   line-height: 1.45;
   background-color: #f7f7f7;
   border-radius: 3px;
+}
+.markdown_body pre code {
+  background-color: transparent;
+  color: inherit;
+}
+.markdown_body pre code:before,
+.markdown_body pre code:after,
+.markdown_body pre tt:before,
+.markdown_body pre tt:after {
+  letter-spacing: 0;
+  content: "";
+}
+.markdown_body code,
+.markdown_body tt {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+  color: #c7254e;
+}
+.markdown_body code:before,
+.markdown_body code:after,
+.markdown_body tt:before,
+.markdown_body tt:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
 }
