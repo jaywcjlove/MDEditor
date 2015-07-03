@@ -1,10 +1,17 @@
 # 简易Markdownd编辑器
 
+[![](https://img.shields.io/github/issues/jaywcjlove/MDEditor.js.svg)](https://github.com/jaywcjlove/MDEditor.js/issues) [![](https://img.shields.io/github/forks/jaywcjlove/MDEditor.js.svg)](https://github.com/jaywcjlove/MDEditor.js/network) [![](https://img.shields.io/github/stars/jaywcjlove/MDEditor.js.svg)](https://github.com/jaywcjlove/MDEditor.js/stargazers) [![](https://img.shields.io/github/release/jaywcjlove/MDEditor.js.svg)](https://github.com/jaywcjlove/MDEditor.js/releases)
+
+##使用
+
 html  
+- 添加 `MDEditor.min.css` 样式
+- 添加 `MDEditor.min.js` 并不是 ~~`lib/MDEditor.js`~~ 哦
+- 添加编辑器初始节点
 
 ```html
 <link rel="stylesheet" type="text/css" href="../themes/default/css/MDEditor.min.css">
-<script type="text/javascript" src="../lib/MDEditor.js"></script>
+<script type="text/javascript" src="../build/MDEditor.min.js"></script>
 <div id="mdeditor"></div>
 ```
 
@@ -13,8 +20,8 @@ js
 ```js
 var mde = new MDEditor({
     id:"#mdeditor",
-    minheight:200,
-    maxheight:500
+    minheight:300,
+    maxheight:600
 }).load()
 ```
 
@@ -22,7 +29,7 @@ var mde = new MDEditor({
 加载编辑器
 
 ```js
-mde.load()  //=>返回markdown字符串
+mde.load()  
 ```
 
 ## getMD
