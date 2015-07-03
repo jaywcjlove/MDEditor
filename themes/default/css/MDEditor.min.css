@@ -70,7 +70,7 @@
   background: #6e6e6e;
   font-style: inherit;
   cursor: pointer;
-  padding: 3px 4px;
+  padding: 1px 4px;
   border-radius: 3px;
   color: #fff;
 }
@@ -179,4 +179,24 @@
 .markdown_body tt:after {
   letter-spacing: -0.2em;
   content: "\00a0";
+}
+.markdown_body table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+  display: block;
+  background-color: transparent;
+}
+.markdown_body table th,
+.markdown_body table td {
+  border: 1px solid #ddd;
+  padding: 4px 10px;
+}
+.markdown_body table th {
+  font-weight: bold;
+  background: #f3f3f3;
+}
+.markdown_body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
 }
