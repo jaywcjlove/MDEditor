@@ -26,6 +26,13 @@ var mde = new MDEditor({
 }).load()
 ```
 
+## MDEditor初始化
+
+- id: 节点id
+- minheight: 初始化编辑器高度
+- maxheight: 编辑器随着输入内容增多而变高，这个值是它的最大值
+- value: 默认编辑器中显示内容
+
 ## load
 加载编辑器
 
