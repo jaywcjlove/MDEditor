@@ -25,7 +25,7 @@ module.exports = (grunt) ->
                     # //<%= grunt.template.today() %>时间
                 files:
                     'themes/default/css/MDEditor.min.css': [
-                        'bower_components/AutoPrefixCss/lib/reset.styl'
+                        'themes/default/AutoPrefixCss/lib/reset.styl'
                         'themes/default/stylus/MDEditor.styl'
                     ]
         watch: 
