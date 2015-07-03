@@ -21,7 +21,8 @@ js
 var mde = new MDEditor({
     id:"#mdeditor",
     minheight:300,
-    maxheight:600
+    maxheight:600,
+    value:"#多多少少的"
 }).load()
 ```
 
@@ -39,10 +40,23 @@ mde.load()
 mde.getMD()  //=>返回markdown字符串
 ```
 
+## setMD
+设置markdown的字符串
+
+```js
+mde.setMD(val)  
+```
 
 ## getHTML
 获取生成的HTML
 
 ```js
 mde.getMD()  //=>返回HTML字符串
+```
+
+## setHTML
+设置预览的HTML
+
+```js
+mde.setHTML(val)  
 ```
