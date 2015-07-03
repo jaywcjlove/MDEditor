@@ -86,7 +86,7 @@
   overflow: hidden;
   font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.4em;
 }
 .markdown_body>*:first-child {
   margin-top: 0 !important;
@@ -141,7 +141,7 @@
 }
 .markdown_body ul,
 .markdown_body ol {
-  padding-left: 2em;
+  padding-left: 1.4em;
 }
 .markdown_body pre {
   padding: 16px;
