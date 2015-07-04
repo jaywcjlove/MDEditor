@@ -29,7 +29,10 @@ var mde = new MDEditor({
     minheight:300,
     maxheight:600,
     value:"#多多少少的"
-}).load()
+}).load().input(function(evn,opts){
+    console.log("evn:",evn)
+    console.log("opts:",opts)
+})
 ```
 
 ## MDEditor初始化
@@ -44,6 +47,16 @@ var mde = new MDEditor({
 
 ```js
 mde.load()  
+```
+
+## input
+输入事件，在编辑器里面输入内容就会执行input方法
+
+```js
+mde.input(function(evn,opts){
+    console.log("evn:",evn)
+    console.log("opts:",opts)
+})  
 ```
 
 ## getMD
