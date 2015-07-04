@@ -31,7 +31,7 @@ function test(){
    alert('123')
 }
 ```
-        
+
     </div>
     <script type="text/javascript">
     var mde = new MDEditor({
@@ -39,8 +39,10 @@ function test(){
         minheight:300,
         maxheight:600,
         value:"#多多少少的"
+    }).load().input(function(evn,opts){
+        console.log("evn:",evn)
+        console.log("opts:",opts)
     })
-    mde.load()
 
 
     </script>
