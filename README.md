@@ -3,8 +3,7 @@
 [![](https://img.shields.io/github/issues/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/issues) [![](https://img.shields.io/github/forks/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/network) [![](https://img.shields.io/github/stars/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/stargazers) [![](https://img.shields.io/github/release/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/releases)
 
 ##使用
-
-html  
+ 
 - 添加 `MDEditor.min.css` 样式
 - 添加 `MDEditor.min.js` 并不是 ~~`lib/MDEditor.js`~~ 哦
 - 添加编辑器初始节点
@@ -19,11 +18,7 @@ html
 - maxheight: 编辑器随着输入内容增多而变高，这个值是它的最大值
 - value: 默认编辑器中显示markdown内容
 </div>
-```
-
-js  
-
-```js
+<script type="text/javascript">
 var mde = new MDEditor({
     id:"#mdeditor",
     minheight:300,
@@ -33,6 +28,7 @@ var mde = new MDEditor({
     console.log("evn:",evn)
     console.log("opts:",opts)
 })
+</script>
 ```
 
 ## MDEditor初始化
