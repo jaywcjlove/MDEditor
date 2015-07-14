@@ -143,6 +143,7 @@
 .markdown_body ul,
 .markdown_body ol {
   padding-left: 1.4em;
+  list-style: initial;
 }
 .markdown_body pre {
   padding: 16px;
