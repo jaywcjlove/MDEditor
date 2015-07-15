@@ -91,6 +91,12 @@
 .markdown_body>*:first-child {
   margin-top: 0 !important;
 }
+.markdown_body strong {
+  font-weight: bold;
+}
+.markdown_body em {
+  font-style: italic;
+}
 .markdown_body h1,
 .markdown_body h2,
 .markdown_body h3,
@@ -144,6 +150,19 @@
 .markdown_body ol {
   padding-left: 1.4em;
   list-style: initial;
+}
+.markdown_body ol {
+  list-style-type: decimal;
+}
+.markdown_body ol ol,
+.markdown_body ul ol {
+  list-style-type: lower-roman;
+}
+.markdown_body ul ul ol,
+.markdown_body ul ol ol,
+.markdown_body ol ul ol,
+.markdown_body ol ol ol {
+  list-style-type: lower-alpha;
 }
 .markdown_body pre {
   padding: 16px;
