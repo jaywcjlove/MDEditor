@@ -78,7 +78,10 @@ min-height=200px
     line-height: 1.4em
     &>*:first-child
         margin-top: 0 !important
-
+    strong
+        font-weight: bold
+    em 
+        font-style:italic
     h1,h2,h3,h4,h5,h6
         position: relative
         margin-top: 1em
@@ -111,6 +114,12 @@ min-height=200px
     ul,ol
         padding-left: 1.4em
         list-style:initial
+    ol
+        list-style-type: decimal
+    ol ol, ul ol
+        list-style-type: lower-roman;
+    ul ul ol, ul ol ol, ol ul ol, ol ol ol
+        list-style-type: lower-alpha;
     pre
         padding: 16px
         overflow: auto
