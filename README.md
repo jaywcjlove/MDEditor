@@ -4,6 +4,8 @@
 
 ##使用
  
+[预览MDEditor](http://jaywcjlove.github.io/MDEditor)  
+
 - 添加 `MDEditor.min.css` 样式
 - 添加 `MDEditor.min.js` 并不是 ~~`lib/MDEditor.js`~~ 哦
 - 添加编辑器初始节点
