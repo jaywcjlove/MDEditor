@@ -8,11 +8,11 @@
 </head>
 <body>
     <div id="mdeditor" class="mdeditor">
-<pre># 简易Markdownd编辑器
+<textarea># 简易Markdownd编辑器
 
 [![](https://img.shields.io/github/issues/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/issues) [![](https://img.shields.io/github/forks/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/network) [![](https://img.shields.io/github/stars/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/stargazers) [![](https://img.shields.io/github/release/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/releases)
 
-##使用
+## 使用
  
 [预览MDEditor](http://jaywcjlove.github.io/MDEditor)  
 
@@ -35,7 +35,7 @@ var mde = new MDEditor({
     id:"#mdeditor",
     minheight:300,
     maxheight:600,
-    value:"#多多少少的"
+    value:"# 多多少少的"
 }).load().input(function(evn,opts){
     console.log("evn:",evn)
     console.log("opts:",opts)
@@ -94,7 +94,7 @@ mde.getMD()  //=>返回HTML字符串
 ```js
 mde.setHTML(val)  
 ```
-</pre>
+</textarea>
 
     </div>
     <script type="text/javascript">
@@ -102,9 +102,8 @@ mde.setHTML(val)
         id:"#mdeditor",
         minheight:300,
         maxheight:600,
-        value:"#多多少少的"
-    })
-.load().preview().input(function(evn,opts){
+        value:"# 多多少少的"
+    }).load().preview().input(function(evn,opts){
         console.log("evn:",evn)
         console.log("opts:",opts)
     })
