@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/github/issues/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/issues) [![](https://img.shields.io/github/forks/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/network) [![](https://img.shields.io/github/stars/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/stargazers) [![](https://img.shields.io/github/release/jaywcjlove/MDEditor.svg)](https://github.com/jaywcjlove/MDEditor/releases)
 
-##使用
+## 使用
  
 [预览MDEditor](http://jaywcjlove.github.io/MDEditor)  
 
