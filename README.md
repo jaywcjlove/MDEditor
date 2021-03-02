@@ -84,7 +84,7 @@ mde.setMD(val)
 获取生成的HTML
 
 ```js
-mde.getMD()  //=>返回HTML字符串
+mde.getHTML()  //=>返回HTML字符串
 ```
 
 ## setHTML
